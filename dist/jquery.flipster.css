@@ -4,7 +4,7 @@
   display: block;
   overflow-x: hidden;
   overflow-y: visible;
-  position: relative;
+  /* position: relative; */
 }
 .flipster:focus {
   outline: none;
@@ -43,8 +43,8 @@
 
 /* @group Flipster Previous & Next Buttons */
 .flipster__button {
-  position: absolute;
-  top: 50%;
+  position: absolute !important;
+  top: 30%;
   display: block;
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -73,10 +73,10 @@
   opacity: 1;
 }
 .flipster__button--prev {
-  left: 0;
+  left: 170px;
 }
 .flipster__button--next {
-  right: 0;
+  right: 170px;
 }
 /* @end */
 

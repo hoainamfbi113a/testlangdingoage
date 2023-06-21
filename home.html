@@ -42,7 +42,7 @@
         <div class="container">
             
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 mt-5">
                     <div id="carousel">
                         <ul class="flip-items">
                             <li data-flip-title="Red">
@@ -93,30 +93,351 @@
                     <p>Trân trọng kính mời bạn đọc tham gia và lựa chọn các mục quan tâm phía dưới để không bỏ lỡ thông tin cập nhật mới nhất từ báo Tuổi Trẻ Online.</p>
                 </div>
                 <div class="col-4">
-                    <div id="carouselExampleIndicators" class="carousel slide float-end" data-bs-ride="carousel">
+                    <div id="carouselExampleIndicators" class="carousel slide"  >
                         <div class="carousel-indicators">
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide-to="0" class="my_indi active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" class="my_indi" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" class="my_indi" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         </div>
                         <div class="carousel-inner">
-                          <div class="carousel-item position-relative active">
-                            <img src="img/slide1.png" class="d-block myw1  shadow-sm" alt="...">
+                          <div myto="0" class="carousel-item z0">
+                            <img src="img/slide1.png" class="d-block w-75" alt="...">
                           </div>
-                          <div class="carousel-item position-relative" >
-                            <img src="img/slide2.png" class="d-block myw1 shadow-sm" alt="...">
+                          <div myto="1" class="carousel-item z1">
+                            <img src="img/slide2.png" class="d-block w-75" alt="...">
                           </div>
-                          <div class="carousel-item position-relative">
-                            <img src="img/slide3.png" class="d-block myw1 shadow-sm" alt="...">
+                          <div myto="2" class="carousel-item z2 active">
+                            <img src="img/slide3.png" class="d-block w-75" alt="...">
                           </div>
                         </div>
                       </div>
+                      
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 mt-5">
+                    <p class="utc_f1">LỰA CHỌN CỦA BẠN</p>
+                    <p class="utc_f2">mục bạn quan tâm</p>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex justify-content-between">
+                        <div class="utc_f3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                                <label class="form-check-label" for="flexCheckDefault1">
+                                    Thời sự <i>(Chính trị & xã hội)</i>
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2" >
+                                <label class="form-check-label" for="flexCheckDefault2">
+                                    Thế giới
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                <label class="form-check-label" for="flexCheckDefault3">
+                                  Pháp luật
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4" >
+                                <label class="form-check-label" for="flexCheckDefault4">
+                                  Văn hóa - giải trí
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5" >
+                                <label class="form-check-label" for="flexCheckDefault5">
+                                  Nhịp sống trẻ
+                                </label>
+                              </div>
+                        </div>
+                        <div class="utc_f3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
+                                <label class="form-check-label" for="flexCheckDefault1">
+                                    Kinh doanh 
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7" >
+                                <label class="form-check-label" for="flexCheckDefault2">
+                                    Sức khỏe
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8">
+                                <label class="form-check-label" for="flexCheckDefault3">
+                                  Giáo dục
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault9" >
+                                <label class="form-check-label" for="flexCheckDefault4">
+                                  Công nghệ
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault10" >
+                                <label class="form-check-label" for="flexCheckDefault5">
+                                  Video
+                                </label>
+                              </div>
+                        </div>
+                        <div class="utc_f3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault11">
+                                <label class="form-check-label" for="flexCheckDefault1">
+                                    Xe
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault12" >
+                                <label class="form-check-label" for="flexCheckDefault2">
+                                    Du lịch 
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault13">
+                                <label class="form-check-label" for="flexCheckDefault3">
+                                  Thể thao
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault41" >
+                                <label class="form-check-label" for="flexCheckDefault4">
+                                  Nhà đất
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5123" >
+                                <label class="form-check-label" for="flexCheckDefault5">
+                                  Khoa học
+                                </label>
+                              </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <p class="utc_f2">Thông tin tổng hợp và các sự kiện</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-check">
+                                <input class="form-check-input position-relative" style="top:12px" type="checkbox" value="" id="flexCheckDefault1123">
+                                <label class="form-check-label utc_f3" for="flexCheckDefault1">
+                                    Tin tức thời sự nổi bật
+                                </label>
+                                <p><i style="font-size:14px">Tin thời sự trong nước & quốc tế đang được xã hội quan tâm</i></p>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input position-relative" style="top:12px" type="checkbox" value="" id="flexCheckDefault124">
+                                <label class="form-check-label utc_f3" for="flexCheckDefault1">
+                                    Bản tin tổng hợp
+                                </label>
+                                <p><i style="font-size:14px">Tin tức & sự kiện xảy ra trong 24h</i></p>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input position-relative" style="top:12px" type="checkbox" value="" id="flexCheckDefault1324">
+                                <label class="form-check-label utc_f3" for="flexCheckDefault1">
+                                    Sự kiện do báo Tuổi Trẻ tổ chức
+                                </label>
+                                <p><i style="font-size:14px">Các chương trình hội thảo, tọa đàm, tư vấn...</i></p>
+                              </div>
+                        </div>
+    
+                        <div class="col-6">
+                            <div class="form-check">
+                                <input class="form-check-input position-relative" style="top:12px" type="checkbox" value="" id="flexCheckDefault1542">
+                                <label class="form-check-label utc_f3" for="flexCheckDefault1">
+                                    Tin tức bạn đọc quan tâm nhiều
+                                </label>
+                                <p><i style="font-size:14px">Chủ đề tin tức bạn đọc xem nhiều nhất ngày/ tuần/ tháng</i></p>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input position-relative" style="top:12px" type="checkbox" value="" id="flexCheckDefault2451">
+                                <label class="form-check-label utc_f3" for="flexCheckDefault1">
+                                    Bản tin chuyên sâu - độc quyền
+                                </label>
+                                <p><i style="font-size:14px">Phóng sự độc quyền, chuyên đề đặc biệt, bài viết phân tích chuyên sâu của các chuyên gia trong các lĩnh vực...</i></p>
+                              </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <p class="utc_f2 mb-2">Thông tin CỦA BẠN                        </p>
+                        <p class="utc_f4">Các thông tin bạn đọc cung cấp sẽ giúp báo Tuổi Trẻ gửi đến bạn những giá trị phù hợp</p>
+                        <p class="utc_f3">Độ tuổi của bạn</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault451">
+                                <label class="form-check-label" for="flexCheckDefault1">
+                                    Từ 18 - 24 tuổi
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefaul324t2" >
+                                <label class="form-check-label" for="flexCheckDefault2">
+                                    Từ 25 - 34 tuổi
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefaul234t3">
+                                <label class="form-check-label" for="flexCheckDefault3">
+                                    Từ 35 - 44 tuổi
+                                </label>
+                              </div>
+                        </div>
+    
+                        <div class="col-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheck1Defa112ult1">
+                                <label class="form-check-label" for="flexCheckDefault1">
+                                    Từ 45 - 54 tuổi
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDef5436au1lt2" >
+                                <label class="form-check-label" for="flexCheckDefault2">
+                                    Từ 55 - 64 tuổi 
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexChecfkDef5346ault3">
+                                <label class="form-check-label" for="flexCheckDefault3">
+                                    Trên 65 tuổi
+                                </label>
+                              </div>
+                        </div>
+                        <div class="col-12">
+                            <p class="utc_f3">Giới tính</p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefaa123ult1">
+                                <label class="form-check-label" for="flexCheckDefault1">
+                                    Nam
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDaef5436ault2" >
+                                <label class="form-check-label" for="flexCheckDefault2">
+                                    Nữ  
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDe3f5346ault3">
+                                <label class="form-check-label" for="flexCheckDefault3">
+                                  Không muốn cập nhật
+                                </label>
+                              </div>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <p class="utc_f1">TẦN XUẤT NHẬN TIN</p>
+                        </div>
+                        <div class="col-12 mb-4">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefa123ult1">
+                                <label class="form-check-label" for="flexCheckDefault1">
+                                    Mỗi ngày
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDef5436ault2" >
+                                <label class="form-check-label" for="flexCheckDefault2">
+                                    Nhận hết - Tôi rất quan tâm tin tức của báo Tuổi Trẻ 
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDef5346ault3">
+                                <label class="form-check-label" for="flexCheckDefault3">
+                                    Chỉ nhận các chuyên mục theo các chủ đề lựa chọn phía trên
+                                </label>
+                              </div>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+            </div>
+            
+            
+
+        </div>
+    </section>
+
+    <section class="container-fluid utc_sec1">
+       <div class="container">
+        <div class="row mt-5 mb-5">
+            <div class="col-6">
+                <ul>
+                    <li class="utc_f7 mb-4">Nếu bạn đã có tài khoản của báo Tuổi Trẻ, vui lòng <b>đăng nhập</b> và thực hiện các bước lựa chọn các mục bạn quan tâm.</li>
+                    <li class="utc_f7">Nếu chưa đăng ký thành viên, bạn vui lòng để lại email muốn nhận thông báo từ chúng tôi.</li>
+                    </ul>
+            </div>
+            <div class="col-6">
+                <form>
+                    <div class="mb-3">
+                        <input type="email" class="form-control utc_inp1" id="exampleFormControlInput1" placeholder="Nhập email của bạn hoặc (abc@gmail.com)">
+                      </div>
+                      <h6 class="utc_f5">(Báo Tuổi Trẻ cam kết bảo mật thông tin bạn đọc)</h6>
+                      <h5 class="utc_f6">Khi nhấn <b>“Lưu lựa chọn”</b> là bạn đã đồng ý nhận thông tin & đăng ký thành viên 
+                        của báo Tuổi Trẻ</h5>
+                        <div class="d-grid gap-2">
+                            <button class="btn utc_bt1" type="button">Lưu lựa chọn</button>
+                        </div>
+                </form>
+            </div>
+        </div>
+       </div>
+    </section>
+
+    <section class="container mt-5">
+        <div class="row">
+                <div class="col-12 mx-auto">
+                    <p class=" utc_f1 mb-0 text-center">THAM GIA THÀNH VIÊN GÓI TUỔI TRẺ SAO </p>
+                    <p class="utc_f1 text-center">ĐỂ TRẢI NGHIỆM NHỮNG GIÁ TRỊ RIÊNG BIỆT</p>
+                </div>
+                <div class="col-4 text-center"><img src="img/icon001.png" /></div>
+                <div class="col-4 text-center"><img src="img/icon002.png" /></div>
+                <div class="col-4 text-center"><img src="img/icon003.png" /></div>
+                <div class="col-6 text-center"><img src="img/icon004.png" /></div>
+                <div class="col-6 text-center"><img src="img/icon005.png" /></div>
+                <p class="text-center">
+                    <button class="btn utc_bt1" style="padding:10px 60px 10px 60px;" type="button">Tìm hiểu thêm</button>
+                    </p>
+        </div>
+        <p class=" utc_f1 mb-0 text-start">THAM GIA THÀNH VIÊN GÓI TUỔI TRẺ SAO </p>
+    </section>
+
+    <section class="container-fluid mt-5 utc_sec2">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <img src="img/utc_qr.png" />
+                </div>
+                <div class="text-start">
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p><a href="#"><img src="img/ggg.png" /></a></p>
+                    <p>&nbsp;</p>
+                    <p><a href="#"><img src="img/aaa.png" /></a></p>
+                </div>
+                <div>&nbsp;</div>
+                <div>&nbsp;</div>
+                <div>&nbsp;</div>
+                <div>
+                    <img src="img/123123.png" class="position-relative" style="bottom:-22px;"  />
+                    <img src="img/321321.png" class="position-relative" style="right:30px;"/>
                 </div>
             </div>
         </div>
     </section>
-
-    
 
     <footer class="my-footer" style="text-align: left;" >
         <div class="container mt-auto bg-white">
@@ -451,6 +772,33 @@
         $(".flatpickr-input").flatpickr({
             enableTime: true,
             dateFormat: "d-m-Y",
+        });
+
+        $(".my_indi").click(function(){
+            var t  = $(this).attr("data-bs-slide-to");
+            $("#carouselExampleIndicators .carousel-item").each(function(i) {
+                //test
+                var obj = $(this)
+                if (t == obj.attr("myto")){
+                    obj.addClass("z2");
+                    obj.removeClass("z1");
+                    obj.removeClass("z0");
+                    obj.prev().addClass("z1");
+                    obj.prev().removeClass("z0");
+                    obj.prev().removeClass("z2");
+                    obj.prev().prev().addClass("z0");
+                    obj.prev().prev().removeClass("z1");
+                    obj.prev().prev().removeClass("z2");
+                    obj.next().addClass("z0");
+                    obj.next().removeClass("z2");
+                    obj.next().removeClass("z0");
+                    obj.next().next().addClass("z0");
+                    obj.next().next().removeClass("z1");
+                    obj.next().next().removeClass("z2");
+                    
+                }
+
+            });
         });
 
         $(".btn-menu").click(function () {
