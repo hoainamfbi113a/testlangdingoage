@@ -1191,6 +1191,7 @@ a.dropdown-toggle-user .bi {
 }
 
 @media only screen and (max-width: 1199px) {
+
     .btn-social {
         padding-top: 5px;
         position: static;
@@ -1199,9 +1200,110 @@ a.dropdown-toggle-user .bi {
         padding-top: 40px;
         padding-bottom: 40px;
     }
+
+    #carousel{
+        width: 90%;
+        margin:auto !important;
+    }
+
+    #carousel img{ 
+        height: 285px !important;
+        width: 285px !important;
+    }
+
+    .flipster__button--prev {
+        left: -10px !important;
+      }
+      .flipster__button--next {
+        right: -10px !important;
+      }
+
+      .flipster__button{
+        top:23% !important;
+      }
+    
+
+    .bg11 {
+        display:none;
+    }
+    #carouselExampleIndicators .carousel-inner{
+        text-align: center;
+    }
+    #carouselExampleIndicators{
+        display:none;
+    }
+
+    #carouselExampleIndicators-mobile{
+        position: relative;
+        display:block !important;
+        overflow-x:clip;
+        right :0px;
+        margin-top:100px;
+    }
+    
+    #carouselExampleIndicators-mobile .carousel-item {
+        display:block;
+    }
+    
+    #carouselExampleIndicators-mobile .carousel-inner{
+        overflow:visible;
+    }
+    
+    #carouselExampleIndicators-mobile .carousel-item:nth-child(3){
+        top:-60px;
+        right:-60px;
+    } 
+    #carouselExampleIndicators-mobile .carousel-item:nth-child(2){
+        top:-40px;
+        right:-40px;
+    } 
+    #carouselExampleIndicators-mobile .carousel-item:nth-child(1){
+        top:-20px;
+        right:-20px;
+    } 
+    #carouselExampleIndicators-mobile .carousel-item:nth-child(0){
+        top:0px;
+        right:0px;
+    } 
+    
+    #carouselExampleIndicators-mobile .carousel-indicators{
+        bottom :-25px;
+    }
+    
+    #carouselExampleIndicators-mobile .carousel-item {
+        transition: transform .5s;
+    }
+
+
+    .carousel-item{
+        text-align: center !important;
+    }
+
 }
 
 @media only screen and (max-width: 991px) {
+    #carousel{
+        width: 80%;
+        margin:auto !important;
+    }
+
+    .myfm{
+        font-size:18px !important;
+    }
+
+    .desktoponly{
+        display: none;
+    }
+
+    .mobileonly {
+        display:block !important;
+    }
+
+    #carousel img{ 
+        height: 185px !important;
+        width: 185px !important;
+    }
+
     body {
         padding-top: 55px;
     }
@@ -1300,6 +1402,8 @@ a.dropdown-toggle-user .bi {
         margin-top: 0;
     }
 }
+
+
 
 @media only screen and (max-width: 600px) {
     .art-news {
@@ -1633,8 +1737,8 @@ a.dropdown-toggle-user .bi {
 }
 
 #carouselExampleIndicators .carousel-item {
-    transition: transform 0.6s ease-in-out;
-  }
+transition: transform .5s;
+}
 
 
 
@@ -1777,3 +1881,72 @@ color: #333333;
     background-position: bottom;
     background-repeat:repeat-x;
 }
+
+.catop .carousel-fade .carousel-item {
+    opacity: inherit !important;
+    transition-property: inherit !important;
+    transform: inherit !important;
+}
+.catop .carousel-fade .carousel-item-next.carousel-item-start,
+.catop .carousel-fade .carousel-item-prev.carousel-item-end,
+.catop .carousel-fade .carousel-item.active {
+    z-index: inherit !important;
+    opacity: inherit !important;
+}
+.catop .carousel-fade .active.carousel-item-end,
+.catop .carousel-fade .active.carousel-item-start {
+    z-index: inherit !important;
+    opacity: inherit !important;
+    transition: opacity 0s 0.6s;
+}
+@media (prefers-reduced-motion: reduce) {
+    .catop .carousel-fade .active.carousel-item-end,
+    .catop .carousel-fade .active.carousel-item-start {
+        transition: inherit !important;
+    }
+}
+#carouselExampleIndicators-mobile{
+    display:none;
+}
+
+.mobileonly {
+    display:none;
+}
+
+#carouselExampleFade img{
+    width: 214px  !important;
+    height:252px !important;
+}
+
+.myitem {
+    /* width: 80% !important;
+    height: 100% !important; */
+}
+
+#carouselExampleControlsNoTouching .carousel-item{
+    width:100%;
+    overflow:hidden;
+}
+
+.swiper {
+    width: 100%;
+    height: 102%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  
