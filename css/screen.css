@@ -1210,13 +1210,14 @@ a.dropdown-toggle-user .bi {
     }
 
     .mySwiper1 .swiper-slide {
-        width: 275px !important;
-        height: 275px !important;
+        max-width: 275px !important;
+        max-height: 275px !important;
     }
 
     .mySwiper1 .swiper-slide-active{
-        width: 300px !important;
-        height: 300px !important;
+        max-width: 300px !important;
+        max-height: 300px !important;
+        
     }
 
     #carousel{
@@ -1312,8 +1313,8 @@ a.dropdown-toggle-user .bi {
     .mySwiper1 .swiper-slide {
         background-position: center;
         background-size: cover;
-        width: 275px !important;
-        height: 275px !important;
+        max-width: 275px !important;
+        max-height: 275px !important;
     }
 
     .mySwiper1_control .swiper-button-prev{
@@ -1321,24 +1322,14 @@ a.dropdown-toggle-user .bi {
     }
     
     .mySwiper1 .swiper-slide-active{
-        width: 300px !important;
-        height: 300px !important;
+        max-width: 300px !important;
+        max-height: 300px !important;
     }
 
     .mySwiper2{
         margin : auto;
         width:90%;
     }
-
-    /* .swiper-button-next{
-        top:20% !important;
-        right:-20% !important;
-    }
-    
-    .swiper-button-prev {
-        top:20% !important;
-        left:-20% !important;
-    }         */
 
     .myfm{
         font-size:18px !important;
@@ -1464,8 +1455,8 @@ a.dropdown-toggle-user .bi {
         width: 150px;
     }
     .mySwiper1 .swiper-slide {
-        width: 175px !important;
-        height: 175px !important;
+        max-width: 175px !important;
+        max-height: 175px !important;
     }
 
     .mySwiper1_control .swiper-button-next{
@@ -1473,8 +1464,8 @@ a.dropdown-toggle-user .bi {
     }
 
     .mySwiper1 .swiper-slide-active{
-        width: 200px !important;
-        height: 200px !important;
+        max-width: 200px !important;
+        max-height: 200px !important;
     }
 
     body {
@@ -2033,8 +2024,8 @@ padding-bottom: 50px;
 .mySwiper1 .swiper-slide {
 background-position: center;
 background-size: cover;
-width: 305px;
-height: 305px;
+max-width: 300px;
+max-height: 300px;
 }
 
 .mySwiper2 .swiper-slide{
@@ -2044,8 +2035,8 @@ height: 305px;
 
 
 .mySwiper1 .swiper-slide-active{
-    width: 350px;
-    height: 350px;
+    max-width: 350px;
+    max-height: 350px;
 }
 
 .swiper-button-next{

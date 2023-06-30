@@ -19,13 +19,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
-    <!-- Flipster CSS -->
-<link rel="stylesheet" href="dist/jquery.flipster.css">
-
-<!-- Flipster Js -->
-<script src="dist/jquery.flipster.min.js"></script>
+    <link rel="stylesheet" href="css/swiper.css">
 </head>
-
 <body>
     <nav class="navbar header  navbar-expand shadow-sm" aria-label="First navbar example">
         <div class="container-fluid">
@@ -47,55 +42,56 @@
             <div class="row">
                 <div class="col-12 mt-5">
                     <!-- Swiper -->
-                    <div class="swiper mySwiper1">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="img/podcast.png" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/ttc.jpg" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/rv.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/tto.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/ttct.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/tto-sao.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/muctim.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/podcast.png" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/ttc.jpg" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/rv.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/tto.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/ttct.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/tto-sao.jpg">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="img/muctim.jpg">
-                            </div>
-                        </div>
-                        
-                        <!-- <div class="swiper-pagination"></div> -->
-                          
-                    </div>
+	<div class="myswiper1">
+		<div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/podcast.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="img/ttc.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="img/rv.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/tto.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/ttct.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/tto-sao.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/muctim.jpg">
+            </div><div class="swiper-slide">
+                <img src="img/podcast.png" />
+            </div>
+            <div class="swiper-slide">
+                <img src="img/ttc.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="img/rv.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/tto.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/ttct.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/tto-sao.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/muctim.jpg">
+            </div>
+                
+
+						<!-- Add Pagination -->
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+
                     <div class="d-flex justify-content-between  mySwiper1_control">
                         
                         <div class="swiper-button-prev"></div>
@@ -435,11 +431,6 @@
                 <!-- Swiper -->
                 <div class="swiper mySwiper0">
                     <div class="swiper-wrapper">
-                    <div class="swiper-slide myitem"><img src="img/icon001.png" /></div>
-                    <div class="swiper-slide myitem"><img src="img/icon002.png" /></div>
-                    <div class="swiper-slide myitem"><img src="img/icon003.png" /></div>
-                    <div class="swiper-slide myitem"><img src="img/icon004.png" /></div>
-                    <div class="swiper-slide myitem"><img src="img/icon005.png" /></div>
                     <div class="swiper-slide myitem"><img src="img/icon001.png" /></div>
                     <div class="swiper-slide myitem"><img src="img/icon002.png" /></div>
                     <div class="swiper-slide myitem"><img src="img/icon003.png" /></div>
@@ -805,6 +796,34 @@
             
         });
 
+
+        // var swiper3 = new Swiper( '.swiper-container.two', {
+        //     pagination: '.swiper-pagination',
+        //     paginationClickable: true,
+        //     effect: 'coverflow',
+        //     loop: true,
+        //     // autoplay: {
+        //     //     delay: 1000,
+        //     //     disableOnInteraction: false,
+        //     // },
+        //                 navigation: {
+        //         nextEl: ".swiper-button-next",
+        //         prevEl: ".swiper-button-prev",
+        //     },
+        //     centeredSlides: true,
+        //     slidesPerView: 'auto',
+        //     coverflowEffect: {
+        //         rotate: 30,
+        //         stretch: 0,
+        //         depth: 100,
+        //         modifier: 1,
+        //         // slideShadows: true,
+        //         stretch: 80,
+        //     },
+        // } );
+
+
+
         var swiper = new Swiper(".mySwiper0", {
             // slidesPerView: 2,
             // spaceBetween: 0,
@@ -812,11 +831,6 @@
             //     el: ".swiper-pagination0",
             //     clickable: true,
             // },
-            loop:true,
-            autoplay: {
-                delay: 1000,
-                disableOnInteraction: false,
-            },
             slidesPerView: "auto",
             centeredSlides: true,
             spaceBetween: 10,
@@ -835,11 +849,6 @@
             grabCursor: true,  
             navigation: {
                 enabled: false 
-            },
-            loop:true,
-            autoplay: {
-                delay: 1000,
-                disableOnInteraction: false,
             },
             cardsEffect: {
                 perSlideOffset: 15, // Space between cards in px
