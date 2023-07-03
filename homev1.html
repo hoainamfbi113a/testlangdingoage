@@ -405,13 +405,36 @@
                       <h5 class="utc_f6">Khi nhấn <b>“Lưu lựa chọn”</b> là bạn đã đồng ý nhận thông tin & đăng ký thành viên 
                         của báo Tuổi Trẻ</h5>
                         <div class="d-grid gap-2">
-                            <button class="btn utc_bt1" type="button">Lưu lựa chọn</button>
+                            <button class="btn utc_bt1" type="button"  data-bs-toggle="modal" data-bs-target="#formLocation">Lưu lựa chọn</button>
                         </div>
                 </form>
             </div>
         </div>
        </div>
     </section>
+
+     <!-- ############################################################################ -->
+     <div class="modal my-modal fade" id="formLocation" tabindex="-1" aria-labelledby="locationModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title my-title text-first" id="locationModalLabel">THÔNG BÁO</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="mx-auto p-3 text-center">
+                    <b>Báo Tuổi Trẻ</b> đã gửi các thông tin bạn lựa chọn đến tài khoản <b>email</b> bạn đã đăng ký, vui lòng kiểm tra và phản hồi chính xác email bạn đăng ký lá chính bạn (đừng quên kiểm tra <b>hộp thư rác</b>)
+                </p>
+                <div class="gap-2 text-center">
+                    <button type="button" class="btn btn-style-r my-3 fw-bolder" id="open-modal-phone2"
+                     data-bs-target="#formPhone2" data-bs-toggle="modal" data-bs-dismiss="modal">
+                     XÁC NHẬN
+                    </button>
+                  </div>
+            </div>
+        </div>
+        </div>
+    </div>
 
     <section class="container mt-5 desktoponly">
         <div class="row">
@@ -493,6 +516,8 @@
             </div>
         </div>
     </section>
+
+   
 
     <footer class="my-footer" style="text-align: left;" >
         <div class="container mt-auto bg-white">
